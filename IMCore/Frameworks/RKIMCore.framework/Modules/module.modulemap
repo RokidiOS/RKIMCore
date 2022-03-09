@@ -1,0 +1,11 @@
+framework module RKIMCore {
+  umbrella header "RKIMCore-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module RKIMCore.Swift {
+    header "RKIMCore-Swift.h"
+    requires objc
+}
