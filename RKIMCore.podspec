@@ -33,9 +33,9 @@ Pod::Spec.new do |s|
   ]
   
   s.dependency 'Moya', '~> 13.0.1'
-  s.dependency 'RKLogger', '~> 0.1.1'
-  s.dependency 'RKUtils', '~> 0.1.3'
-  s.dependency 'RKHandyJSON', '~> 0.1.2'
+  s.dependency 'RKLogger'
+  s.dependency 'RKUtils'
+  s.dependency 'RKHandyJSON'
   s.dependency 'WCDB.swift'
  
 
