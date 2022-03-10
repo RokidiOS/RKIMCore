@@ -1,5 +1,5 @@
 framework module RKIMCore {
-  umbrella header "RKIMCore-umbrella.h"
+  umbrella header "RKIMCore.h"
 
   export *
   module * { export * }

@@ -37,7 +37,7 @@ Pod::Spec.new do |s|
   s.dependency 'RKIUtils'
   s.dependency 'RKIHandyJSON'
   s.dependency 'WCDB.swift'
- 
+  s.dependency 'RKSocket'
 
 end
 
