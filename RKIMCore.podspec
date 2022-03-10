@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'RKIMCore'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'rokid im core protocols'
 
 # This description is used to generate tags and improve search results.
@@ -33,9 +33,9 @@ Pod::Spec.new do |s|
   ]
   
   s.dependency 'Moya', '~> 13.0.1'
-  s.dependency 'RKLogger'
-  s.dependency 'RKUtils'
-  s.dependency 'RKHandyJSON'
+  s.dependency 'RKILogger'
+  s.dependency 'RKIUtils'
+  s.dependency 'RKIHandyJSON'
   s.dependency 'WCDB.swift'
  
 
