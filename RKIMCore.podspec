@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
   s.homepage         = 'https://github.com/chzy/RKIMCore'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'chzy' => 'yang.chunzhi@hotmail.com' }
-  s.source           = { :git => 'https://github.com/RokidiOS/RKIMCore.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/RokidiOS/RKIMCore.git', :branch => s.version.to_s }
   s.ios.vendored_frameworks = "IMCore/Frameworks/*.framework"
   s.ios.deployment_target = '10.0'
   s.swift_version = '5.0'
