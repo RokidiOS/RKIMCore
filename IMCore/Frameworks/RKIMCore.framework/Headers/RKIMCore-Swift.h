@@ -217,7 +217,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 # pragma pop_macro("any")
 #endif
 
-typedef SWIFT_ENUM(NSInteger, ChatType, closed) {
+typedef SWIFT_ENUM(NSInteger, ChatType, open) {
 /// 单人聊
   ChatTypeSingleGroup = 1,
 /// 群聊
@@ -713,7 +713,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 # pragma pop_macro("any")
 #endif
 
-typedef SWIFT_ENUM(NSInteger, ChatType, closed) {
+typedef SWIFT_ENUM(NSInteger, ChatType, open) {
 /// 单人聊
   ChatTypeSingleGroup = 1,
 /// 群聊
