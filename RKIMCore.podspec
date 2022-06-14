@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'RKIMCore'
-  s.version          = '0.1.2'
+  s.version          = '1.1.2'
   s.summary          = 'rokid im core protocols'
 
 # This description is used to generate tags and improve search results.
@@ -24,7 +24,7 @@ Pod::Spec.new do |s|
   s.homepage         = 'https://github.com/chzy/RKIMCore'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'chzy' => 'yang.chunzhi@hotmail.com' }
-  s.source           = { :git => 'https://github.com/RokidiOS/RKIMCore.git', :branch => "0.1.2_swift5.6.0" }
+  s.source           = { :git => 'https://github.com/RokidiOS/RKIMCore.git', :branch => "1.1.2_swift5.6.0" }
   s.ios.vendored_frameworks = "IMCore/Frameworks/*.framework"
   s.ios.deployment_target = '10.0'
   s.swift_version = '5.0'
