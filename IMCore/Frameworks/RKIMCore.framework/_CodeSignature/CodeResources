@@ -6,11 +6,11 @@
 	<dict>
 		<key>Headers/RKIMCore-Swift.h</key>
 		<data>
-		t2IdFpejYkL0LAst+FdRrpJkKkc=
+		5gcCqprwZt/W9dleNIC0/D6CTCY=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		wy0VlGoK2q12TKMx5gwlKOLZBjA=
+		uk0q9xexuZFG/wWo3/VUNHHHHbY=
 		</data>
 		<key>Modules/RKIMCore.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<data>
@@ -30,7 +30,7 @@
 		</data>
 		<key>Modules/RKIMCore.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		Zr4lmguXtnEsYs559iQh5YTG8BY=
+		U9dIb+8QzPKwP2cAklaflg8BuoQ=
 		</data>
 		<key>Modules/RKIMCore.swiftmodule/armv7-apple-ios.swiftdoc</key>
 		<data>
@@ -55,11 +55,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			t2IdFpejYkL0LAst+FdRrpJkKkc=
+			5gcCqprwZt/W9dleNIC0/D6CTCY=
 			</data>
 			<key>hash2</key>
 			<data>
-			wxCONoYduQzdBTSQDC326WS3MqgeFgu24f3dtkRWwbk=
+			+3nWPU8js8AqKjc2k2tEzvh/MYGjcA1CN3k8f/IPje4=
 			</data>
 		</dict>
 		<key>Modules/RKIMCore.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
@@ -110,11 +110,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Zr4lmguXtnEsYs559iQh5YTG8BY=
+			U9dIb+8QzPKwP2cAklaflg8BuoQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			1FE1b/50tk1VxD4jQIWVPU1cmHWmwOAGU6HHD+9CprI=
+			SIDROWabuX0m4gar3fd7AJ7feEw4jVgk6SjpndR/hX4=
 			</data>
 		</dict>
 		<key>Modules/RKIMCore.swiftmodule/armv7-apple-ios.swiftdoc</key>
