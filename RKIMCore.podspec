@@ -31,14 +31,13 @@ Pod::Spec.new do |s|
   s.source_files = [
   'IMCore/Classes/**/*',
   ]
-  
-  s.dependency 'Moya'
-  s.dependency 'RKSocket'#, '~> 0.1.1'
-  s.dependency 'RKILogger'#, '~> 0.1.1'
-  s.dependency 'RKIUtils'#, '~> 0.1.3'
-  s.dependency 'RKIHandyJSON'#, '~> 0.1.2'
-  s.dependency 'WCDB.swift'
  
+  s.dependency 'Moya'
+  s.dependency 'RKSocket'
+  s.dependency 'RKILogger'
+  s.dependency 'RKIHandyJSON'
+  s.dependency 'WCDB.swift'
+  s.dependency 'RKIUtils'
 
 end
 
