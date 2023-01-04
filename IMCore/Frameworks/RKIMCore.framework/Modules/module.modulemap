@@ -6,6 +6,6 @@ framework module RKIMCore {
 }
 
 module RKIMCore.Swift {
-    header "RKIMCore-Swift.h"
-    requires objc
+  header "RKIMCore-Swift.h"
+  requires objc
 }
