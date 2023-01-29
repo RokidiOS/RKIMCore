@@ -260,8 +260,6 @@ typedef SWIFT_ENUM(NSInteger, ChatType, open) {
   ChatTypeNormalGroup = 2,
 /// all
   ChatTypeAll = 0,
-/// workspaceGroup
-  ChatTypeWorkspaceGroup = 3,
 };
 
 @class RKIMManager;
