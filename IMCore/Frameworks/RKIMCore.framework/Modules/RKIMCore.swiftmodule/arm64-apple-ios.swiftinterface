@@ -161,6 +161,7 @@ public typealias RKResult = (_ isSuccess: Swift.Bool, _ errorMessage: Swift.Stri
   public class func initDB()
   @objc deinit
 }
+public func RKIMModifyRKRTCAPI(disabledTrustEvaluatorHosts hosts: [Swift.String])
 @_inheritsConvenienceInitializers public class RKIMProvider : Moya.MoyaProvider<RKIMCore.RMIMHttpEnum> {
   @discardableResult
   public func requestCombine(_ target: RKIMCore.RMIMHttpEnum, _ completion: @escaping RKIMCore.RKResult) -> Moya.Cancellable
@@ -169,7 +170,9 @@ public typealias RKResult = (_ isSuccess: Swift.Bool, _ errorMessage: Swift.Stri
   override public init(endpointClosure: @escaping Moya.MoyaProvider<RKIMCore.RMIMHttpEnum>.EndpointClosure = super, requestClosure: @escaping Moya.MoyaProvider<RKIMCore.RMIMHttpEnum>.RequestClosure = super, stubClosure: @escaping Moya.MoyaProvider<RKIMCore.RMIMHttpEnum>.StubClosure = super, callbackQueue: Dispatch.DispatchQueue? = nil, session: Moya.Session = super, plugins: [Moya.PluginType] = super, trackInflights: Swift.Bool = super)
   @objc deinit
 }
-public let RKIMAPI: RKIMCore.RKIMProvider
+public var RKIMAPI: RKIMCore.RKIMProvider {
+  get
+}
 public enum RMIMHttpEnum {
   case userList(keyword: Swift.String?)
   case groupList(keyword: Swift.String?, chatType: RKIMCore.ChatType?)
@@ -265,6 +268,7 @@ public enum MessageContentType : Swift.String, RKIHandyJSON.HandyJSONEnum {
   case Voice
   case File
   case system
+  case work
   case unread
   case Unknown
   public init?(rawValue: Swift.String)
@@ -410,6 +414,7 @@ extension RKIMCore.RKIMSocketManager : RKSocket.RKSocketDelegate {
   case singleGroup = 1
   case normalGroup = 2
   case all = 0
+  case workspaceGroup = 3
   public init?(rawValue: Swift.Int)
   public typealias RawValue = Swift.Int
   public var rawValue: Swift.Int {

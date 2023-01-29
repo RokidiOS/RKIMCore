@@ -6839,6 +6839,70 @@
         "moduleName": "RKIMCore"
       },
       {
+        "kind": "Var",
+        "name": "TrustHosts",
+        "printedName": "TrustHosts",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Array",
+            "printedName": "[Swift.String]",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "usr": "s:Sa"
+          }
+        ],
+        "declKind": "Var",
+        "usr": "s:8RKIMCore10TrustHostsSaySSGvp",
+        "mangledName": "$s8RKIMCore10TrustHostsSaySSGvp",
+        "moduleName": "RKIMCore",
+        "declAttributes": [
+          "HasInitialValue",
+          "HasStorage"
+        ],
+        "hasStorage": true
+      },
+      {
+        "kind": "Function",
+        "name": "RKIMModifyRKRTCAPI",
+        "printedName": "RKIMModifyRKRTCAPI(disabledTrustEvaluatorHosts:)",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Void",
+            "printedName": "()"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Array",
+            "printedName": "[Swift.String]",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "usr": "s:Sa"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:8RKIMCore18RKIMModifyRKRTCAPI27disabledTrustEvaluatorHostsySaySSG_tF",
+        "mangledName": "$s8RKIMCore18RKIMModifyRKRTCAPI27disabledTrustEvaluatorHostsySaySSG_tF",
+        "moduleName": "RKIMCore",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
         "kind": "TypeDecl",
         "name": "RKIMProvider",
         "printedName": "RKIMProvider",
@@ -7250,12 +7314,8 @@
         "mangledName": "$s8RKIMCore7RKIMAPIAA12RKIMProviderCvp",
         "moduleName": "RKIMCore",
         "declAttributes": [
-          "HasInitialValue",
-          "HasStorage",
           "AccessControl"
         ],
-        "isLet": true,
-        "hasStorage": true,
         "accessors": [
           {
             "kind": "Accessor",
@@ -7273,7 +7333,6 @@
             "usr": "s:8RKIMCore7RKIMAPIAA12RKIMProviderCvg",
             "mangledName": "$s8RKIMCore7RKIMAPIAA12RKIMProviderCvg",
             "moduleName": "RKIMCore",
-            "implicit": true,
             "accessorKind": "get"
           }
         ]
@@ -9612,6 +9671,13 @@
         "moduleName": "RKIMCore"
       },
       {
+        "kind": "Import",
+        "name": "RKSocket",
+        "printedName": "RKSocket",
+        "declKind": "Import",
+        "moduleName": "RKIMCore"
+      },
+      {
         "kind": "TypeDecl",
         "name": "RKIMSetting",
         "printedName": "RKIMSetting",
@@ -11026,6 +11092,43 @@
             "declKind": "EnumElement",
             "usr": "s:8RKIMCore18MessageContentTypeO6systemyA2CmF",
             "mangledName": "$s8RKIMCore18MessageContentTypeO6systemyA2CmF",
+            "moduleName": "RKIMCore"
+          },
+          {
+            "kind": "Var",
+            "name": "work",
+            "printedName": "work",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(RKIMCore.MessageContentType.Type) -> RKIMCore.MessageContentType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MessageContentType",
+                    "printedName": "RKIMCore.MessageContentType",
+                    "usr": "s:8RKIMCore18MessageContentTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "RKIMCore.MessageContentType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MessageContentType",
+                        "printedName": "RKIMCore.MessageContentType",
+                        "usr": "s:8RKIMCore18MessageContentTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:8RKIMCore18MessageContentTypeO4workyA2CmF",
+            "mangledName": "$s8RKIMCore18MessageContentTypeO4workyA2CmF",
             "moduleName": "RKIMCore"
           },
           {
@@ -21066,6 +21169,48 @@
             "fixedbinaryorder": 2
           },
           {
+            "kind": "Var",
+            "name": "workspaceGroup",
+            "printedName": "workspaceGroup",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(RKIMCore.ChatType.Type) -> RKIMCore.ChatType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ChatType",
+                    "printedName": "RKIMCore.ChatType",
+                    "usr": "c:@M@RKIMCore@E@ChatType"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "RKIMCore.ChatType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ChatType",
+                        "printedName": "RKIMCore.ChatType",
+                        "usr": "c:@M@RKIMCore@E@ChatType"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@RKIMCore@E@ChatType@ChatTypeWorkspaceGroup",
+            "mangledName": "$s8RKIMCore8ChatTypeO14workspaceGroupyA2CmF",
+            "moduleName": "RKIMCore",
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "fixedbinaryorder": 3
+          },
+          {
             "kind": "Constructor",
             "name": "init",
             "printedName": "init(rawValue:)",
@@ -21660,8 +21805,22 @@
     },
     {
       "filePath": "\/Users\/chzy\/Desktop\/Rokid\/custom\/RKIMCore\/RKIMCore\/Classes\/MoyaProvider.swift",
+      "kind": "StringLiteral",
+      "offset": 817,
+      "length": 16,
+      "value": "\"192.168.250.32\""
+    },
+    {
+      "filePath": "\/Users\/chzy\/Desktop\/Rokid\/custom\/RKIMCore\/RKIMCore\/Classes\/MoyaProvider.swift",
+      "kind": "Array",
+      "offset": 877,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/chzy\/Desktop\/Rokid\/custom\/RKIMCore\/RKIMCore\/Classes\/MoyaProvider.swift",
       "kind": "FloatLiteral",
-      "offset": 2613,
+      "offset": 3431,
       "length": 3,
       "value": "0.5"
     },
@@ -21689,70 +21848,70 @@
     {
       "filePath": "\/Users\/chzy\/Desktop\/Rokid\/custom\/RKIMCore\/RKIMCore\/Classes\/RKIMManager.swift",
       "kind": "StringLiteral",
-      "offset": 220,
+      "offset": 235,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/chzy\/Desktop\/Rokid\/custom\/RKIMCore\/RKIMCore\/Classes\/RKIMManager.swift",
       "kind": "StringLiteral",
-      "offset": 258,
+      "offset": 273,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/chzy\/Desktop\/Rokid\/custom\/RKIMCore\/RKIMCore\/Classes\/RKIMManager.swift",
       "kind": "StringLiteral",
-      "offset": 292,
+      "offset": 307,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/chzy\/Desktop\/Rokid\/custom\/RKIMCore\/RKIMCore\/Classes\/RKIMManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 364,
+      "offset": 379,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/chzy\/Desktop\/Rokid\/custom\/RKIMCore\/RKIMCore\/Classes\/RKIMManager.swift",
       "kind": "StringLiteral",
-      "offset": 402,
+      "offset": 417,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/chzy\/Desktop\/Rokid\/custom\/RKIMCore\/RKIMCore\/Classes\/RKIMManager.swift",
       "kind": "StringLiteral",
-      "offset": 437,
+      "offset": 452,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/chzy\/Desktop\/Rokid\/custom\/RKIMCore\/RKIMCore\/Classes\/RKIMManager.swift",
       "kind": "StringLiteral",
-      "offset": 480,
+      "offset": 495,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/chzy\/Desktop\/Rokid\/custom\/RKIMCore\/RKIMCore\/Classes\/RKIMManager.swift",
       "kind": "StringLiteral",
-      "offset": 522,
+      "offset": 537,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/chzy\/Desktop\/Rokid\/custom\/RKIMCore\/RKIMCore\/Classes\/RKIMManager.swift",
       "kind": "StringLiteral",
-      "offset": 560,
+      "offset": 575,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/chzy\/Desktop\/Rokid\/custom\/RKIMCore\/RKIMCore\/Classes\/RKIMManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 6578,
+      "offset": 6593,
       "length": 4,
       "value": "true"
     },
@@ -21801,14 +21960,21 @@
     {
       "filePath": "\/Users\/chzy\/Desktop\/Rokid\/custom\/RKIMCore\/RKIMCore\/Classes\/RKIMMessage.swift",
       "kind": "StringLiteral",
-      "offset": 371,
+      "offset": 369,
+      "length": 5,
+      "value": "\"101\""
+    },
+    {
+      "filePath": "\/Users\/chzy\/Desktop\/Rokid\/custom\/RKIMCore\/RKIMCore\/Classes\/RKIMMessage.swift",
+      "kind": "StringLiteral",
+      "offset": 393,
       "length": 5,
       "value": "\"200\""
     },
     {
       "filePath": "\/Users\/chzy\/Desktop\/Rokid\/custom\/RKIMCore\/RKIMCore\/Classes\/RKIMMessage.swift",
       "kind": "StringLiteral",
-      "offset": 396,
+      "offset": 418,
       "length": 3,
       "value": "\"0\""
     },
@@ -21857,170 +22023,191 @@
     {
       "filePath": "\/Users\/chzy\/Desktop\/Rokid\/custom\/RKIMCore\/RKIMCore\/Classes\/RKIMMessage.swift",
       "kind": "StringLiteral",
-      "offset": 371,
+      "offset": 369,
+      "length": 5,
+      "value": "\"101\""
+    },
+    {
+      "filePath": "\/Users\/chzy\/Desktop\/Rokid\/custom\/RKIMCore\/RKIMCore\/Classes\/RKIMMessage.swift",
+      "kind": "StringLiteral",
+      "offset": 393,
       "length": 5,
       "value": "\"200\""
     },
     {
       "filePath": "\/Users\/chzy\/Desktop\/Rokid\/custom\/RKIMCore\/RKIMCore\/Classes\/RKIMMessage.swift",
       "kind": "StringLiteral",
-      "offset": 396,
+      "offset": 418,
       "length": 3,
       "value": "\"0\""
     },
     {
       "filePath": "\/Users\/chzy\/Desktop\/Rokid\/custom\/RKIMCore\/RKIMCore\/Classes\/RKIMMessage.swift",
       "kind": "IntegerLiteral",
-      "offset": 475,
+      "offset": 497,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/chzy\/Desktop\/Rokid\/custom\/RKIMCore\/RKIMCore\/Classes\/RKIMMessage.swift",
       "kind": "IntegerLiteral",
-      "offset": 499,
+      "offset": 521,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/chzy\/Desktop\/Rokid\/custom\/RKIMCore\/RKIMCore\/Classes\/RKIMMessage.swift",
       "kind": "IntegerLiteral",
-      "offset": 523,
+      "offset": 545,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/chzy\/Desktop\/Rokid\/custom\/RKIMCore\/RKIMCore\/Classes\/RKIMMessage.swift",
       "kind": "IntegerLiteral",
-      "offset": 551,
+      "offset": 573,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/chzy\/Desktop\/Rokid\/custom\/RKIMCore\/RKIMCore\/Classes\/RKIMMessage.swift",
       "kind": "IntegerLiteral",
-      "offset": 571,
+      "offset": 593,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/chzy\/Desktop\/Rokid\/custom\/RKIMCore\/RKIMCore\/Classes\/RKIMMessage.swift",
       "kind": "IntegerLiteral",
-      "offset": 596,
+      "offset": 618,
       "length": 1,
       "value": "6"
     },
     {
       "filePath": "\/Users\/chzy\/Desktop\/Rokid\/custom\/RKIMCore\/RKIMCore\/Classes\/RKIMMessage.swift",
       "kind": "IntegerLiteral",
-      "offset": 619,
+      "offset": 641,
       "length": 1,
       "value": "7"
     },
     {
       "filePath": "\/Users\/chzy\/Desktop\/Rokid\/custom\/RKIMCore\/RKIMCore\/Classes\/RKIMMessage.swift",
       "kind": "IntegerLiteral",
-      "offset": 475,
+      "offset": 497,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/chzy\/Desktop\/Rokid\/custom\/RKIMCore\/RKIMCore\/Classes\/RKIMMessage.swift",
       "kind": "IntegerLiteral",
-      "offset": 499,
+      "offset": 521,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/chzy\/Desktop\/Rokid\/custom\/RKIMCore\/RKIMCore\/Classes\/RKIMMessage.swift",
       "kind": "IntegerLiteral",
-      "offset": 523,
+      "offset": 545,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/chzy\/Desktop\/Rokid\/custom\/RKIMCore\/RKIMCore\/Classes\/RKIMMessage.swift",
       "kind": "IntegerLiteral",
-      "offset": 551,
+      "offset": 573,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/chzy\/Desktop\/Rokid\/custom\/RKIMCore\/RKIMCore\/Classes\/RKIMMessage.swift",
       "kind": "IntegerLiteral",
-      "offset": 571,
+      "offset": 593,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/chzy\/Desktop\/Rokid\/custom\/RKIMCore\/RKIMCore\/Classes\/RKIMMessage.swift",
       "kind": "IntegerLiteral",
-      "offset": 596,
+      "offset": 618,
       "length": 1,
       "value": "6"
     },
     {
       "filePath": "\/Users\/chzy\/Desktop\/Rokid\/custom\/RKIMCore\/RKIMCore\/Classes\/RKIMMessage.swift",
       "kind": "IntegerLiteral",
-      "offset": 619,
+      "offset": 641,
       "length": 1,
       "value": "7"
     },
     {
       "filePath": "\/Users\/chzy\/Desktop\/Rokid\/custom\/RKIMCore\/RKIMCore\/Classes\/RKIMMessage.swift",
       "kind": "IntegerLiteral",
-      "offset": 475,
+      "offset": 497,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/chzy\/Desktop\/Rokid\/custom\/RKIMCore\/RKIMCore\/Classes\/RKIMMessage.swift",
       "kind": "IntegerLiteral",
-      "offset": 499,
+      "offset": 521,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/chzy\/Desktop\/Rokid\/custom\/RKIMCore\/RKIMCore\/Classes\/RKIMMessage.swift",
       "kind": "IntegerLiteral",
-      "offset": 523,
+      "offset": 545,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/chzy\/Desktop\/Rokid\/custom\/RKIMCore\/RKIMCore\/Classes\/RKIMMessage.swift",
       "kind": "IntegerLiteral",
-      "offset": 551,
+      "offset": 573,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/chzy\/Desktop\/Rokid\/custom\/RKIMCore\/RKIMCore\/Classes\/RKIMMessage.swift",
       "kind": "IntegerLiteral",
-      "offset": 571,
+      "offset": 593,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/chzy\/Desktop\/Rokid\/custom\/RKIMCore\/RKIMCore\/Classes\/RKIMMessage.swift",
       "kind": "IntegerLiteral",
-      "offset": 596,
+      "offset": 618,
       "length": 1,
       "value": "6"
     },
     {
       "filePath": "\/Users\/chzy\/Desktop\/Rokid\/custom\/RKIMCore\/RKIMCore\/Classes\/RKIMMessage.swift",
       "kind": "IntegerLiteral",
-      "offset": 619,
+      "offset": 641,
       "length": 1,
       "value": "7"
     },
     {
       "filePath": "\/Users\/chzy\/Desktop\/Rokid\/custom\/RKIMCore\/RKIMCore\/Classes\/RKIMMessage.swift",
       "kind": "IntegerLiteral",
-      "offset": 676,
+      "offset": 698,
       "length": 2,
       "value": "1"
+    },
+    {
+      "filePath": "\/Users\/chzy\/Desktop\/Rokid\/custom\/RKIMCore\/RKIMCore\/Classes\/RKIMMessage.swift",
+      "kind": "IntegerLiteral",
+      "offset": 720,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/chzy\/Desktop\/Rokid\/custom\/RKIMCore\/RKIMCore\/Classes\/RKIMMessage.swift",
+      "kind": "IntegerLiteral",
+      "offset": 745,
+      "length": 1,
+      "value": "0"
     },
     {
       "filePath": "\/Users\/chzy\/Desktop\/Rokid\/custom\/RKIMCore\/RKIMCore\/Classes\/RKIMMessage.swift",
@@ -22032,16 +22219,16 @@
     {
       "filePath": "\/Users\/chzy\/Desktop\/Rokid\/custom\/RKIMCore\/RKIMCore\/Classes\/RKIMMessage.swift",
       "kind": "IntegerLiteral",
-      "offset": 723,
+      "offset": 720,
       "length": 1,
-      "value": "0"
+      "value": "1"
     },
     {
       "filePath": "\/Users\/chzy\/Desktop\/Rokid\/custom\/RKIMCore\/RKIMCore\/Classes\/RKIMMessage.swift",
       "kind": "IntegerLiteral",
-      "offset": 676,
+      "offset": 745,
       "length": 1,
-      "value": "1"
+      "value": "0"
     },
     {
       "filePath": "\/Users\/chzy\/Desktop\/Rokid\/custom\/RKIMCore\/RKIMCore\/Classes\/RKIMMessage.swift",
@@ -22053,84 +22240,70 @@
     {
       "filePath": "\/Users\/chzy\/Desktop\/Rokid\/custom\/RKIMCore\/RKIMCore\/Classes\/RKIMMessage.swift",
       "kind": "IntegerLiteral",
-      "offset": 723,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/chzy\/Desktop\/Rokid\/custom\/RKIMCore\/RKIMCore\/Classes\/RKIMMessage.swift",
-      "kind": "IntegerLiteral",
-      "offset": 676,
+      "offset": 720,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/chzy\/Desktop\/Rokid\/custom\/RKIMCore\/RKIMCore\/Classes\/RKIMMessage.swift",
       "kind": "IntegerLiteral",
-      "offset": 698,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/chzy\/Desktop\/Rokid\/custom\/RKIMCore\/RKIMCore\/Classes\/RKIMMessage.swift",
-      "kind": "IntegerLiteral",
-      "offset": 723,
+      "offset": 745,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/chzy\/Desktop\/Rokid\/custom\/RKIMCore\/RKIMCore\/Classes\/RKIMMessage.swift",
       "kind": "IntegerLiteral",
-      "offset": 2386,
+      "offset": 2408,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/chzy\/Desktop\/Rokid\/custom\/RKIMCore\/RKIMCore\/Classes\/RKIMMessage.swift",
       "kind": "StringLiteral",
-      "offset": 2435,
+      "offset": 2457,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/chzy\/Desktop\/Rokid\/custom\/RKIMCore\/RKIMCore\/Classes\/RKIMMessage.swift",
       "kind": "StringLiteral",
-      "offset": 2483,
+      "offset": 2505,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/chzy\/Desktop\/Rokid\/custom\/RKIMCore\/RKIMCore\/Classes\/RKIMMessage.swift",
       "kind": "StringLiteral",
-      "offset": 2543,
+      "offset": 2565,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/chzy\/Desktop\/Rokid\/custom\/RKIMCore\/RKIMCore\/Classes\/RKIMMessage.swift",
       "kind": "StringLiteral",
-      "offset": 2601,
+      "offset": 2623,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/chzy\/Desktop\/Rokid\/custom\/RKIMCore\/RKIMCore\/Classes\/RKIMMessage.swift",
       "kind": "StringLiteral",
-      "offset": 2708,
+      "offset": 2730,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/chzy\/Desktop\/Rokid\/custom\/RKIMCore\/RKIMCore\/Classes\/RKIMMessage.swift",
       "kind": "StringLiteral",
-      "offset": 2770,
+      "offset": 2792,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/chzy\/Desktop\/Rokid\/custom\/RKIMCore\/RKIMCore\/Classes\/RKIMMessage.swift",
       "kind": "FloatLiteral",
-      "offset": 3862,
+      "offset": 3884,
       "length": 3,
       "value": "0.0"
     },
@@ -22200,44 +22373,58 @@
     {
       "filePath": "\/Users\/chzy\/Desktop\/Rokid\/custom\/RKIMCore\/RKIMCore\/Classes\/RKIMUser.swift",
       "kind": "IntegerLiteral",
-      "offset": 3450,
+      "offset": 3519,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/chzy\/Desktop\/Rokid\/custom\/RKIMCore\/RKIMCore\/Classes\/RKIMUser.swift",
       "kind": "IntegerLiteral",
-      "offset": 3491,
+      "offset": 3560,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/chzy\/Desktop\/Rokid\/custom\/RKIMCore\/RKIMCore\/Classes\/RKIMUser.swift",
       "kind": "IntegerLiteral",
-      "offset": 3520,
+      "offset": 3589,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/chzy\/Desktop\/Rokid\/custom\/RKIMCore\/RKIMCore\/Classes\/RKIMUser.swift",
       "kind": "IntegerLiteral",
-      "offset": 3450,
+      "offset": 3641,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/chzy\/Desktop\/Rokid\/custom\/RKIMCore\/RKIMCore\/Classes\/RKIMUser.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3519,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/chzy\/Desktop\/Rokid\/custom\/RKIMCore\/RKIMCore\/Classes\/RKIMUser.swift",
       "kind": "IntegerLiteral",
-      "offset": 3491,
+      "offset": 3560,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/chzy\/Desktop\/Rokid\/custom\/RKIMCore\/RKIMCore\/Classes\/RKIMUser.swift",
       "kind": "IntegerLiteral",
-      "offset": 3520,
+      "offset": 3589,
       "length": 1,
       "value": "0"
+    },
+    {
+      "filePath": "\/Users\/chzy\/Desktop\/Rokid\/custom\/RKIMCore\/RKIMCore\/Classes\/RKIMUser.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3641,
+      "length": 1,
+      "value": "3"
     }
   ]
 }
